@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: /manifests
+    path: manifests
     repoURL: https://github.com/Nithin47TA/python-helloworld
     targetRevision: HEAD
   syncPolicy: {}
