@@ -1,8 +1,9 @@
 apiVersion: v1
 name: nginx-deployment 
 description: deploy nginx application
-keywords: nginx
+keywords: 
+- nginx
 version: 1.0.0
 maintainers: 
- name: Nithin 
+- name: Nithin 
 
