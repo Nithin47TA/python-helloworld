@@ -23,9 +23,9 @@ spec:
         app: nginx
         tag: alpine
     spec:
-      containers:
+     containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: nginx-alpine
-        resources:
+        resources: 
 {{ toYaml .Values.resources | indent 12 }}
